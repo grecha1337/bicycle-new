@@ -1,0 +1,8 @@
+.slider__button-next {
+  transform: rotate(45deg);
+  &::before {
+    position: relative;
+    top: 2px;
+    right: 2px;
+  }
+}

@@ -1,0 +1,10 @@
+.bicycle__container {
+  margin: 0 auto;
+  max-width: $maxWidthConteiner;
+  padding: 60px 120px;
+  box-sizing: border-box;
+  @media screen and (max-width: $maxWidthMobile) {
+    padding: $paddingContainerMobile;
+    padding-bottom: 40px;
+  }
+}

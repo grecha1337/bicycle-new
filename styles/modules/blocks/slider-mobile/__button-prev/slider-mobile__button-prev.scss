@@ -1,0 +1,8 @@
+.slider-mobile__button-prev {
+  transform: rotate(225deg);
+  &::before {
+    position: relative;
+    top: 0px;
+    right: 2px;
+  }
+}

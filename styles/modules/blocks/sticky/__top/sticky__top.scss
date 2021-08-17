@@ -1,0 +1,13 @@
+.sticky__top {
+  position: absolute;
+  height: 430px;
+  top: 347px;
+  right: 30%;
+  max-width: 1440px;
+  @media screen and (max-width: 880px) {
+    right: 55%;
+  }
+  @media screen and (max-width: 640px) {
+    right: 19%;
+  }
+}

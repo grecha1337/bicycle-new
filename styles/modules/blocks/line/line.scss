@@ -1,0 +1,8 @@
+.line {
+  border-bottom: 1px solid #e3e3e3;
+  width: 100%;
+  display: none;
+  @media screen and (max-width: $maxWidthMobile) {
+    display: block;
+  }
+}

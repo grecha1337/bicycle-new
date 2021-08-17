@@ -1,0 +1,10 @@
+.workout__app {
+  @include reset-list-inline;
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #151515;
+  grid-column: 1;
+}

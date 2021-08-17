@@ -1,0 +1,13 @@
+.road__container {
+  margin: 0 auto;
+  max-width: $maxWidthConteiner;
+  padding: 60px 0 60px 120px;
+  box-sizing: border-box;
+  @media screen and (max-width: $maxWidthMobile) {
+    padding: $paddingContainerMobile;
+    padding-bottom: 40px;
+    min-height: 505px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

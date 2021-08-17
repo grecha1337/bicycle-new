@@ -1,0 +1,12 @@
+.eddy-merckx__quote {
+  @include reset-title;
+  font-size: 34px;
+  font-weight: 600;
+  color: map-get($font-color, "title");
+  font-family: $font-family;
+  letter-spacing: -0.5px;
+  @media screen and (max-width: $maxWidthMobile) {
+    font-size: 23px;
+    line-height: 29px;
+  }
+}

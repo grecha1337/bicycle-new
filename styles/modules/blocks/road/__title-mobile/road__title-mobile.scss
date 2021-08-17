@@ -1,0 +1,15 @@
+@use "sass:map";
+
+.road__title-mobile {
+  display: none;
+  font-size: map.get($font-size-d, "title");
+  font-weight: map-get($font-weight, "title");
+  color: map-get($font-color, "title");
+  font-family: $font-family;
+  @include reset-title;
+  @media screen and (max-width: $maxWidthMobile) {
+    display: block;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}

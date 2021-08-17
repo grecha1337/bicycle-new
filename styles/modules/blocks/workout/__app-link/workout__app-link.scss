@@ -1,0 +1,8 @@
+.workout__app-link {
+  text-decoration: none;
+  color: #151515;
+  transition: 0.3s;
+  &:hover {
+    opacity: 0.75;
+  }
+}

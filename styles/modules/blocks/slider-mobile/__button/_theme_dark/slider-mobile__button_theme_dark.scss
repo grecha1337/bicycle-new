@@ -1,0 +1,12 @@
+.slider-mobile__button_theme_dark {
+  background: #434343;
+  &::before {
+    position: relative;
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-right: 3px solid white;
+    border-top: 3px solid white;
+  }
+}

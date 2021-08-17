@@ -1,0 +1,13 @@
+.footer__container {
+  margin: 0 auto;
+  max-width: $maxWidthConteiner;
+  padding: 80px 120px 60px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, max-content);
+  @media screen and (max-width: $maxWidthMobile) {
+    padding: 60px 18px 25px;
+    min-height: 358px;
+  }
+}

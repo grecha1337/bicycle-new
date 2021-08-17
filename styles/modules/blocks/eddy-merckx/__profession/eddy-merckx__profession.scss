@@ -1,0 +1,14 @@
+.eddy-merckx__profession {
+  @include reset-paragraph;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #222222;
+  font-family: $font-family;
+  opacity: 0.7;
+  @media screen and (max-width: $maxWidthMobile) {
+    font-size: 10px;
+    line-height: 16px;
+  }
+}

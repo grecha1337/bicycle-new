@@ -1,0 +1,7 @@
+.about-bicycle {
+  background-color: $mainColorBackground;
+  min-height: 856px;
+  @media screen and (max-width: $maxWidthMobile) {
+    min-height: 746px;
+  }
+}

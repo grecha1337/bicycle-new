@@ -1,0 +1,6 @@
+.bicycle__cards-mobile {
+  display: none;
+  @media screen and (max-width: $maxWidthMobile) {
+    display: block;
+  }
+}

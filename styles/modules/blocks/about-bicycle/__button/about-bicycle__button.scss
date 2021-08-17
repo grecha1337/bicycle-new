@@ -1,0 +1,10 @@
+@use "sass:map";
+
+.about-bicycle__button {
+  @include z-index-top;
+  grid-row: 3;
+  grid-column-start: 1;
+  @media screen and (max-width: $maxWidthMobile) {
+    grid-row: 4;
+  }
+}

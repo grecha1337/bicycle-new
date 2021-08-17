@@ -1,0 +1,6 @@
+.input_theme_dark {
+  color: $colorTitleDark;
+  &::placeholder{
+    opacity: 0.7;
+  }
+}

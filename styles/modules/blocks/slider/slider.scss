@@ -1,0 +1,5 @@
+.slider {
+  @media screen and (max-width: $maxWidthMobile) {
+    display: none;
+  }
+}

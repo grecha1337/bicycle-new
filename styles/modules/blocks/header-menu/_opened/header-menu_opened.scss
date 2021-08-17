@@ -1,0 +1,15 @@
+.header-menu_opened {
+  @media screen and (max-width: $menuMobileMaxWidth) {
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 999;
+    background-color: $colorMenu;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+}

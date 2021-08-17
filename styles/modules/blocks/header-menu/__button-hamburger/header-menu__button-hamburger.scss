@@ -1,0 +1,20 @@
+.header-menu__button-hamburger {
+  display: none;
+  z-index: 9999;
+  background-color: transparent;
+  border: none;
+  background-repeat: repeat-x;
+  background-position: center center;
+  max-width: 22px;
+  width: 100%;
+  min-height: 28px;
+  box-sizing: border-box;
+  background-size: 28px;
+  cursor: pointer;
+  margin-right: 18px;
+  background-image: url(../../../../../images/hamburger.svg);
+  @media screen and (max-width: $menuMobileMaxWidth) {
+    padding: 0;
+    display: block;
+  }
+}

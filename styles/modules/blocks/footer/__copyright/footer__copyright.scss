@@ -1,0 +1,14 @@
+.footer__copyright {
+  @include reset-paragraph;
+  font-family: $font-family;
+  grid-row-start: 3;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #cfcfcf;
+  @media screen and (max-width: $maxWidthMobile) {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

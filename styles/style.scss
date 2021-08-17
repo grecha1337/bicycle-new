@@ -1,0 +1,155 @@
+@import "../vendor/normalize.css";
+@import "../vendor/fonts/fonts.css";
+
+@import "./modules/variables.scss";
+@import "./modules/mixins.scss";
+@import "./modules/blocks/page/page.scss";
+
+@import "./modules/blocks/button/button.scss";
+
+@import "./modules/blocks/header/header.scss";
+@import "./modules/blocks/header/__content/header__content.scss";
+
+@import "./modules/blocks/header-menu/header-menu.scss";
+@import "./modules/blocks/header-menu/__list/header-menu__list.scss";
+@import "./modules/blocks/header-menu/__item/header-menu__item.scss";
+@import "./modules/blocks/header-menu/__item-link/header-menu__item-link.scss";
+@import "./modules/blocks/header-menu/_opened/header-menu_opened.scss";
+@import "./modules/blocks/header-menu/__theme/header__theme.scss";
+@import "./modules/blocks/header-menu/__button-close/header-menu__button-close.scss";
+@import "./modules/blocks/header-menu/__button-hamburger/header-menu__button-hamburger.scss";
+
+@import "./modules/blocks/about-bicycle/about-bicycle.scss";
+@import "./modules/blocks/about-bicycle/__container/about-bicycle__container.scss";
+@import "./modules/blocks/about-bicycle/__title/about-bicycle__title.scss";
+@import "./modules/blocks/about-bicycle/__paragraph/about-bicycle__paragraph.scss";
+@import "./modules/blocks/about-bicycle/__button/about-bicycle__button.scss";
+@import "./modules/blocks/about-bicycle/__img/about-bicycle__img.scss";
+@import "./modules/blocks/about-bicycle/__continer-brand/about-bicycle__continer-brand.scss";
+@import "./modules/blocks/about-bicycle/__continer-brand-line/about-bicycle__continer-brand-line.scss";
+@import "./modules/blocks/about-bicycle/__brand/about-bicycle__brand.scss";
+@import "./modules/blocks/about-bicycle/__popup/about-bicycle__popup.scss";
+
+@import "./modules/blocks/eddy-merckx/eddy-merckx.scss";
+@import "./modules/blocks/eddy-merckx/__container/eddy-merckx__container.scss";
+@import "./modules/blocks/eddy-merckx/__img/eddy-merckx__img.scss";
+@import "./modules/blocks/eddy-merckx/__profession/eddy-merckx__profession.scss";
+@import "./modules/blocks/eddy-merckx/__quote/eddy-merckx__quote.scss";
+@import "./modules/blocks/eddy-merckx/__author/eddy-merckx__author.scss";
+@import "./modules/blocks/eddy-merckx/__about-author/eddy-merckx__about-author.scss";
+
+@import "./modules/blocks/road/road.scss";
+@import "./modules/blocks/road/__container/road__container.scss";
+@import "./modules/blocks/road/__title/road__title.scss";
+@import "./modules/blocks/road/__paragraph/road__paragraph.scss";
+
+@import "./modules/blocks/slider/slider.scss";
+@import "./modules/blocks/slider/__photo-list/slider__photo-list.scss";
+@import "./modules/blocks/slider/__photo-item/slider__photo-item.scss";
+@import "./modules/blocks/slider/__img/slider__img.scss";
+@import "./modules/blocks/slider/__controller/slider__controller.scss";
+@import "./modules/blocks/slider/__button-item/slider__button-item.scss";
+@import "./modules/blocks/slider/__button/slider__button.scss";
+@import "./modules/blocks/slider/__button-next/slider__button-next.scss";
+@import "./modules/blocks/slider/__button-prev/slider__button-prev.scss";
+
+@import "./modules/blocks/bicycle/bicycle.scss";
+@import "./modules/blocks/bicycle/__container/bicycle__container.scss";
+@import "./modules/blocks/bicycle/__header/bicycle__header.scss";
+@import "./modules/blocks/bicycle/__title/bicycle__title.scss";
+@import "./modules/blocks/bicycle/__type-list/bicycle__type-list.scss";
+@import "./modules/blocks/bicycle/__type-item/bicycle__type-item.scss";
+@import "./modules/blocks/bicycle/__select/bicycle__select.scss";
+
+@import "./modules/blocks/cards/cards.scss";
+@import "./modules/blocks/cards/__item/cards__item.scss";
+@import "./modules/blocks/cards/__item-link/cards__item-link.scss";
+@import "./modules/blocks/cards/__item-img/cards__item-img.scss";
+@import "./modules/blocks/cards/__img-container/cards__img-container.scss";
+
+@import "./modules/blocks/workout/workout.scss";
+@import "./modules/blocks/workout/__container/workout__container.scss";
+@import "./modules/blocks/workout/__description/workout__description.scss";
+@import "./modules/blocks/workout/__title/workout__title.scss";
+@import "./modules/blocks/workout/__about-training/workout__about-training.scss";
+@import "./modules/blocks/workout/__app/workout__app.scss";
+@import "./modules/blocks/workout/__type-name/workout__type-name.scss";
+@import "./modules/blocks/workout/__img/workout__img.scss";
+@import "./modules/blocks/workout/__app-link/workout__app-link.scss";
+
+@import "./modules/blocks/popup/popup.scss";
+@import "./modules/blocks/popup/__container.scss/popup__container.scss";
+@import "./modules/blocks/popup/__img/popup__img.scss";
+
+@import "./modules/blocks/sticky/__top/sticky__top.scss";
+
+@import "./modules/blocks/switch/switch.scss";
+@import "./modules/blocks/switch/__checkbox/switch__checkbox.scss";
+@import "./modules/blocks/switch/__round/switch__round.scss";
+
+@import "./modules/blocks/footer/footer.scss";
+@import "./modules/blocks/footer/__container/footer__container.scss";
+@import "./modules/blocks/footer/__title/footer__title.scss";
+@import "./modules/blocks/footer/__input/footer__input.scss";
+@import "./modules/blocks/footer/__copyright/footer__copyright.scss";
+@import "./modules/blocks/footer/__theme/footer__theme.scss";
+@import "./modules/blocks/footer/__logo/footer__logo.scss";
+
+@import "./modules/blocks/input/input.scss";
+
+@import "./modules/blocks/header/_theme/header_theme_dark.scss";
+@import "./modules/blocks/header-menu/__item-link/_theme_dark/header-menu__item-link_theme_dark.scss";
+@import "./modules/blocks/about-bicycle/_theme_dark/about-bicycle_theme_dark.scss";
+@import "./modules/blocks/about-bicycle/__title/_theme_dark/about-bicycle__title_theme_dark.scss";
+@import "./modules/blocks/about-bicycle/__paragraph/_theme_dark/about-bicycle__paragraph_theme_dark.scss";
+@import "./modules/blocks/about-bicycle/__brand/_theme_dark/about-bicycle__brand_theme_dark.scss";
+@import "./modules/blocks/eddy-merckx/_theme_dark/eddy-merckx_theme_dark.scss";
+@import "./modules/blocks/eddy-merckx/__quote/_theme_dark/eddy-merckx__quote_theme_dark.scss";
+@import "./modules/blocks/eddy-merckx/__author/_theme_dark.scss/eddy-merckx__author_theme_dark.scss";
+@import "./modules/blocks/eddy-merckx/__profession/_theme_dark/eddy-merckx__profession_theme_dark.scss";
+@import "./modules/blocks/road/_theme_dark/road_theme_dark.scss";
+@import "./modules/blocks/road/__title/_theme_dark/road__title_theme_dark.scss";
+@import "./modules/blocks/road/__paragraph/_theme_dark/road__paragraph_theme_dark.scss";
+@import "./modules/blocks/slider/__button/_theme_dark/slider__button_theme_dark.scss";
+@import "./modules/blocks/bicycle/_theme_dark/bicycle_theme_dark.scss";
+@import "./modules/blocks/bicycle/__title/_theme_dark/bicycle__title_theme_dark.scss";
+@import "./modules/blocks/bicycle/__type-item/_theme_dark/bicycle__type-item_theme_dark.scss";
+@import "./modules/blocks/cards/__item-link/_theme_dark/cards__item-link_theme_dark.scss";
+@import "./modules/blocks/workout/_theme_dark/workout_theme_dark.scss";
+@import "./modules/blocks/workout/__title/_theme_dark/workout__title_theme_dark.scss";
+@import "./modules/blocks/workout/__about-training/_theme_dark/workout__about-training_theme_dark.scss";
+@import "./modules/blocks/workout/__app-link/_theme_dark/workout__app-link_theme_dark.scss";
+@import "./modules/blocks/footer/_theme_dark/footer_theme_dark.scss";
+@import "./modules/blocks/footer/__title/_theme_dark/footer__title_theme_dark.scss";
+@import "./modules/blocks/input/_theme_dark/input_theme_dark.scss";
+@import "./modules/blocks/footer/__copyright/footer__copyright.scss";
+@import "./modules/blocks/switch/__round/_theme_dark/switch__round_theme_dark.scss";
+@import "./modules/blocks/bicycle/__cards/bicycle__cards.scss";
+
+@import "./modules/blocks/cards-mobile/__container/cards-mobile__container.scss";
+@import "./modules/blocks/cards-mobile/__img/cards-mobile__img.scss";
+@import "./modules/blocks/cards-mobile/__link/cards-mobile__link.scss";
+@import "./modules/blocks/bicycle/__cards-mobile/bicycle__cards-mobile.scss";
+@import "./modules/blocks/road/__title-mobile/road__title-mobile.scss";
+
+@import "./modules/blocks/slider-mobile/__photo-container/slider-mobile__photo-container.scss";
+@import "./modules/blocks/slider-mobile/__button-item/slider-mobile__button-item.scss";
+@import "./modules/blocks/slider-mobile/__button-next/slider-mobile__button-next.scss";
+@import "./modules/blocks/slider-mobile/__button-prev/slider-mobile__button-prev.scss";
+@import "./modules/blocks/slider-mobile/__button/slider-mobile__button.scss";
+@import "./modules/blocks/slider-mobile/__button/_theme_dark/slider-mobile__button_theme_dark.scss";
+@import "./modules/blocks/slider-mobile/__controller/slider-mobile__controller.scss";
+@import "./modules/blocks/slider-mobile/__img/slider-mobile__img.scss";
+@import "./modules/blocks/slider-mobile/__photo-container/slider-mobile__photo-container.scss";
+@import "./modules/blocks/slider-mobile/slider-mobile.scss";
+
+@import "./modules/blocks/line/line.scss";
+@import "./modules/blocks/road/__line/road__line.scss";
+@import "./modules/blocks/bicycle/__line/bicycle__line.scss";
+@import "./modules/blocks/workout/__line/workout__line.scss";
+@import "./modules/blocks/eddy-merckx/__line/eddy-merckx__line.scss";
+@import "./modules/blocks/popup/__img/popup__img.scss";
+@import "./modules/blocks/bicycle/__type-item-active/bicycle__type-item-active.scss";
+@import "./modules/blocks/road/__title-mobile/_theme_dark/road__title-mobile_theme_dark.scss";
+@import "./modules/blocks/bicycle/__select/_theme_dark/bicycle__select_theme_dark.scss";
+@import "./modules/blocks/cards-mobile/cards-mobile.scss";

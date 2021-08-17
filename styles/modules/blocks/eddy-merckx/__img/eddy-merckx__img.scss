@@ -1,0 +1,10 @@
+.eddy-merckx__img {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  max-width: 100%;
+  max-height: 460px;
+  @media screen and (max-width: $maxWidthMobile) {
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+}

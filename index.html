@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <title>Велосипед</title>
+</head>
+
+<body class="page">
+  <header class="header">
+    <div class="header__content">
+
+      <nav class="header-menu">
+        <button class="header-menu__button-close"></button>
+        <button class="header-menu__button-hamburger"></button>
+        <ul class="header-menu__list">
+          <li class="header-menu__item">
+            <a class="header-menu__item-link" href="#road">Покрытия и градиенты</a>
+          </li>
+          <li class="header-menu__item">
+            <a class="header-menu__item-link" href="#bicycle">Велосипеды</a>
+          </li>
+          <li class="header-menu__item">
+            <a class="header-menu__item-link" href="#workout">Тренировки</a>
+          </li>
+        </ul>
+        <div class="theme header__theme">
+          <img class="theme__theme-light" src="./images/light.svg">
+          <label class="switch">
+            <input type="checkbox" class="switch__checkbox">
+            <span class="switch__round"></span>
+          </label>
+          <img class="theme__theme-dark" src="./images/dark.svg">
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="about-bicycle">
+      <div class="about-bicycle__container">
+        <div class="sticky">
+          <div class="sticky__top">
+            <div class="popup about-bicycle__popup">
+              <div class="popup__container">
+                <img class="popup__img" src="./images/popup.png" alt="вело">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <img class="about-bicycle__img" src="./images/about-bicycle-right.jpg" alt="красивы лес">
+        <h1 class="about-bicycle__title">Шоссе, ТТ и Грэвел</h1>
+        <p class="about-bicycle__paragraph">Триатлонные старты, горные серпантины
+          или грейвел заезды по живописным
+          маршрутам – нужно только определиться с выбором велосипеда и отправиться в путь.</p>
+        <button class="button about-bicycle__button" type="button">Подробнее</button>
+        <div class="about-bicycle__continer-brand">
+          <p class="about-bicycle__brand">Cannondale Systemsix</p>
+          <div class="about-bicycle__continer-brand-line"></div>
+        </div>
+
+      </div>
+    </section>
+    <section class="eddy-merckx">
+      <div class="eddy-merckx__container">
+        <div class="line eddy-merckx__line"></div>
+        <img src="./images/eddy-merckx.jpg" alt="лес и дорога" class="eddy-merckx__img">
+        <h2 class="eddy-merckx__quote">«Катайся много или мало, долго или коротко, как
+          хочешь - но катайся»</h2>
+        <div class="eddy-merckx__about-author">
+          <p class="eddy-merckx__author">Эдди Меркс</p>
+          <p class="eddy-merckx__profession">Велогонщик</p>
+        </div>
+      </div>
+    </section>
+    <section class="road" id="road">
+      <div class="road__container">
+        <div class="line road__line"></div>
+        <h2 class="road__title">Шоссе</h2>
+        <p class="road__paragraph">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то
+          горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
+        <div class="swiper-container slider-mobile road__slider-mobile">
+          <h2 class="road__title-mobile">Шоссе</h2>
+          <ul class="slider-mobile__controller">
+            <li class="slider-mobile__button-item"><button
+                class="slider-mobile__button slider-mobile__button-prev"></button>
+            </li>
+            <li class="slider-mobile__button-item"><button
+                class="slider-mobile__button slider-mobile__button-next"></button></li>
+          </ul>
+
+          <div class="swiper-wrapper slider-mobile__photo-container">
+            <div class="swiper-slide"><img class="slider-mobile__img" alt="фото" src="./images/slider1.jpg"></div>
+            <div class="swiper-slide"><img class="slider-mobile__img" alt="фото" src="./images/slider2.jpg"></div>
+            <div class="swiper-slide"><img class="slider-mobile__img" alt="фото" src="./images/slider3.jpg"></div>
+          </div>
+
+        </div>
+        <div class="swiper-container slider road__slider">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper slider__photo-list">
+            <!-- Slides -->
+            <div class="swiper-slide slider__photo-item"><img class="slider__img slider__img-first" alt="фото"
+                src="./images/slider1.jpg"></div>
+            <div class="swiper-slide slider__photo-item "><img class="slider__img slider__img-second" alt="фото"
+                src="./images/slider2.jpg"></div>
+            <div class="swiper-slide slider__photo-item "><img class="slider__img slider__img-second" alt="фото"
+                src="./images/slider3.jpg"></div>
+          </div>
+          <ul class="slider__controller">
+            <li class="slider__button-item"><button class="slider__button slider__button-prev"></button>
+            </li>
+            <li class="slider__button-item"><button class="slider__button slider__button-next"></button></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="bicycle" id="bicycle">
+      <div class="bicycle__container">
+        <div class="line bicycle__line"></div>
+        <div class="bicycle__header">
+          <h2 class="bicycle__title">Велосипеды</h2>
+          <ul class="bicycle__type-list">
+            <li class="bicycle__type-item bicycle__type-item-active bicycle__type-item-highway">Шоссе</li>
+            <li class="bicycle__type-item bicycle__type-item-gravel">Грэвел</li>
+            <li class="bicycle__type-item bicycle__type-item-tt">ТТ</li>
+          </ul>
+        </div>
+        <select class="bicycle__select">
+          <option selected value="Крокодил Гена">Шоссе</option>
+          <option value="Шапокляк">Грэвел</option>
+          <option value="Крыса Лариса">ТТ</option>
+        </select>
+
+        <div class="swiper-container cards-mobile bicycle__cards-mobile">
+
+          <div class="swiper-wrapper  cards-mobile__container">
+
+            <div class="swiper-slide cards-mobile__container">
+
+              <img class="cards-mobile__img" src="./images/Cervelo-Caledonia.png">
+              <a class="cards-mobile__link" href="#">Cervelo Caledonia-5</a>
+
+            </div>
+            <div class="swiper-slide cards-mobile__container">
+              <img class="cards-mobile__img" src="./images/Cervelo-Caledonia.png">
+              <a class="cards-mobile__link" href="#">Cervelo Caledonia-7</a>
+            </div>
+            <div class="swiper-slide cards-mobile__container">
+              <img class="cards-mobile__img" src="./images/Cervelo-Caledonia.png">
+              <a class="cards-mobile__link" href="#">Cervelo Caledonia-8</a>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- <div class="swiper-container cards-mobile bicycle__cards-mobile">
+
+          <div class="cards-mobile__container swiper-wrapper">
+            <div class="swiper-slide slider__photo-item"><img class="slider__img slider__img-first" alt="фото"
+              src="./images/slider1.jpg"></div>
+              <div class="swiper-slide slider__photo-item"><img class="slider__img slider__img-first" alt="фото"
+                src="./images/slider1.jpg"></div>
+            <div class="swiper-slide">
+              <img class="cards-mobile__img" src="./images/Cervelo-Caledonia.png">
+              <a class="cards-mobile__link" href="#">Cervelo Caledonia-5</a>
+            </div>
+            <div class="swiper-slide">
+              <img class="cards-mobile__img" src="./images/Cervelo-Caledonia.png">
+              <a class="cards-mobile__link" href="#">Cervelo Caledonia-5</a>
+            </div>
+          </div>
+        </div> -->
+        <div class="cards bicycle__cards">
+
+          <!-- <div class="cards__item">
+            <div class="cards__img-container">
+              <img class="cards__item-img" src="./images/Cervelo-Caledonia.png">
+            </div>
+            <a class="cards__item-link" href="#">Cervelo Caledonia-5</a>
+          </div>
+          <div class="cards__item">
+            <div class="cards__img-container">
+              <img class="cards__item-img" src="./images/Cervelo-Caledonia.png">
+            </div>
+            <a class="cards__item-link" href="#">Cervelo Caledonia-5</a>
+          </div>
+          <div class="cards__item">
+            <div class="cards__img-container">
+              <img class="cards__item-img" src="./images/Cervelo-Caledonia.png">
+            </div>
+            <a class="cards__item-link" href="#">Cervelo Caledonia-5</a>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <section class="workout" id="workout">
+      <div class="workout__container">
+        <div class="line workout__line"></div>
+        <h2 class="workout__title">Тренировки</h2>
+        <p class="workout__about-training">Чтобы найти маршрут для тренировки можно
+          воспользоваться сервисом Komoot, а
+          записать эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный
+          план.</p>
+        <ul class="workout__app">
+          <li class="workout__type-name"><a class="workout__app-link" href="https://www.strava.com">Strava</a></li>
+          <li class="workout__type-name"><a class="workout__app-link" href="https://www.komoot.com">Komoot</a></li>
+        </ul>
+
+        <img class="workout__img" src="./images/train.jpg" alt="Тренировки">
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__container">
+      <h2 class="footer__title">Подпишитесь на рассылку —</h2>
+      <input class="input footer__input " type="email" placeholder="Ваш e-mail">
+      <p class="footer__copyright">© Road Club 2021</p>
+      <img class="footer__logo" src="./images/logo-footer.svg">
+      <div class="theme footer__theme">
+        <img class="theme__theme-light" src="./images/light.svg">
+        <label class="switch">
+          <input type="checkbox" class="switch__checkbox">
+          <span class="switch__round"></span>
+        </label>
+        <img class="theme__theme-dark" src="./images/dark.svg">
+      </div>
+    </div>
+  </footer>
+  <template id="card">
+    <div class="cards__item">
+      <div class="cards__img-container">
+        <img class="cards__item-img" src="./images/Cervelo-Caledonia.png">
+      </div>
+      <a class="cards__item-link" href="#">Cervelo Caledonia-5</a>
+    </div>
+  </template>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./js/slider.js"></script>
+  <script src="./js/cards.js"></script>
+  <script src="./js/menuHandler.js"></script>
+  <script src="./js/switch_theme.js"></script>
+</body>
+
+</html>

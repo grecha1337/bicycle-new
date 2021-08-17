@@ -1,0 +1,30 @@
+@use "sass:map";
+
+.button {
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border: none;
+  box-sizing: border-box;
+  height: 50px;
+  background: #24b47e;
+  border-radius: 4px;
+  font-size: map.get($font-size-d, "button");
+  font-weight: map-get($font-weight, "button");
+  color: map-get($font-color, "button");
+  font-family: $font-family;
+  transition: 1s;
+  color: #fff;
+  background-image: linear-gradient(90deg, #319e75 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 200%;
+  transition: background 500ms linear;
+  &:hover {
+    background-position: 0;
+  }
+  width: 180px;
+  @media screen and (max-width: $maxWidthMobile) {
+    min-width: 284px;
+  }
+}

@@ -1,0 +1,7 @@
+.footer__logo {
+  display:none;
+  @media screen and (max-width: $maxWidthMobile) {
+    display: block;
+    justify-self: end;
+  }
+}

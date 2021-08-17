@@ -1,0 +1,14 @@
+.workout__container {
+  margin: 0 auto;
+  max-width: $maxWidthConteiner;
+  padding: 150px 120px 120px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  box-sizing: border-box;
+  @media screen and (max-width: $maxWidthMobile) {
+    padding: 40px 18px 60px;
+    min-height: 635px;
+    grid-template-columns: 1fr;
+  }
+}

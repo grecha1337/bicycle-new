@@ -1,0 +1,17 @@
+@use "sass:map";
+
+.workout__title {
+  @include reset-title;
+  font-family: $font-family;
+  font-size: map.get($font-size-d, "title");
+  font-weight: map-get($font-weight, "title");
+  color: map-get($font-color, "title");
+  line-height: map-get($line-height, "title");
+  margin-bottom: 50px;
+  grid-column: 1;
+  @media screen and (max-width: $maxWidthMobile) {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 40px;
+  }
+}

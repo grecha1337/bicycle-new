@@ -1,0 +1,9 @@
+.slider-mobile {
+  grid-template-columns: repeat(2, 2fr);
+  gap: 40px;
+  align-items: center;
+  display: none;
+  @media screen and (max-width: $maxWidthMobile) {
+    display: grid;
+  }
+}
