@@ -2,7 +2,6 @@ const cardContainer = document.querySelector(".cards");
 const btnHighway = document.querySelector(".bicycle__type-item-highway");
 const btnGravel = document.querySelector(".bicycle__type-item-gravel");
 const btnTT = document.querySelector(".bicycle__type-item-tt");
-
 const initialCards = [
   {
     linkImg: "./images/Cervelo-Caledonia-5.png",
@@ -78,13 +77,13 @@ function createCard(cardData) {
 function initilTypeCards(type, cardList) {
   cardList.forEach(function (el) {
     if (el.type === type) {
-      addCard(el, cardContainer);
+      addCard(el, cardContainer, createCard);
     }
   });
 }
 
-function addCard(cardElement, cardContainer) {
-  const card = createCard(cardElement);
+function addCard(cardElement, cardContainer, callback) {
+  const card = callback(cardElement);
   cardContainer.append(card);
 }
 
