@@ -66,6 +66,16 @@
   }
 }
 
+@media screen and (max-width: 567px) {
+  .header-menu {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
 .header-menu__list {
   padding: 0;
   margin: 0;
@@ -79,7 +89,6 @@
     justify-content: center;
     align-items: center;
     margin-top: 70px;
-    display: none;
   }
 }
 
@@ -115,7 +124,7 @@
     top: 0;
     left: 0;
     position: absolute;
-    z-index: 999;
+    z-index: 9999;
     background-color: #F4F4F4;
     width: 100vw;
     height: 100vh;
@@ -123,22 +132,30 @@
     justify-content: space-between;
     align-items: center;
     display: flex;
+    visibility: visible;
+    opacity: 1;
   }
 }
 
 .header__theme {
-  display: none;
-  justify-content: end;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 0 20px;
-  z-index: 9999;
-  margin-bottom: 38px;
-  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+@media screen and (max-width: 567px) {
+  .header__theme {
+    justify-content: end;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    gap: 0 20px;
+    z-index: 9999;
+    margin-bottom: 38px;
+    visibility: visible;
+    opacity: 1;
+  }
 }
 
 .header-menu__button-close {
-  display: none;
   z-index: 9999;
   background-color: transparent;
   border: none;
@@ -151,14 +168,17 @@
   background-size: 32px;
   cursor: pointer;
   margin-left: auto;
-  margin-right: 13px;
+  margin-right: 32px;
   background-image: url(../../../../../images/close-btn.png);
-  margin-top: 28px;
+  margin-top: 20px;
+  visibility: hidden;
+  opacity: 0;
 }
 @media screen and (max-width: 567px) {
   .header-menu__button-close {
     padding-right: 0;
-    display: none;
+    visibility: visible;
+    opacity: 1;
   }
 }
 
@@ -1383,4 +1403,8 @@
 .bicycle__pagination {
   position: static !important;
   margin-top: 20px;
+}
+
+.header-menu_theme_dark {
+  background-color: #333333;
 }/*# sourceMappingURL=style.css.map */

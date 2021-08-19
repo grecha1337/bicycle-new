@@ -1,5 +1,4 @@
 .header-menu__button-close {
-  display: none;
   z-index: 9999;
   background-color: transparent;
   border: none;
@@ -12,11 +11,14 @@
   background-size: 32px;
   cursor: pointer;
   margin-left: auto;
-  margin-right: 13px;
+  margin-right: 32px;
   background-image: url(../../../../../images/close-btn.png);
-  margin-top: 28px;
+  margin-top: 20px;
+  visibility: hidden;
+  opacity: 0;
   @media screen and (max-width: $menuMobileMaxWidth) {
     padding-right: 0;
-    display: none;
+    visibility: visible;
+    opacity: 1;
   }
 }

@@ -28,10 +28,13 @@ const input = document.querySelector(".input");
 const footerCopyright = document.querySelector(".footer__copyright");
 const switchRound = document.querySelector(".switch__round");
 const bicycleSelect = document.querySelector(".bicycle__select");
+const headerMenuDark = document.querySelector(".header-menu");
 
 switchers.forEach(function(switcher) {
   // Вешаем событие клик
   switcher.addEventListener("click", function () {
+    
+    switchTheme(headerMenuDark, "header-menu_theme_dark");
     switchTheme(header, "header_theme_dark");
     switchTheme(aboutBicycle, "about-bicycle_theme_dark");
     switchTheme(aboutBicycleTitle, "about-bicycle__title_theme_dark");

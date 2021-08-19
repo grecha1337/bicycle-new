@@ -7,18 +7,9 @@ const headerTheme = document.querySelector(".header__theme");
 const headerMenuContainer = document.querySelectorAll(".header-menu");
 btnCloseMenu.addEventListener("click", () => {
   headerMenu.classList.toggle("header-menu_opened");
-  btnCloseMenu.style.display = "none";
-  headerList.style.display = "none";
-  headerTheme.style.display = "none";
-  hamburgerMenu.style.display = "block";
-
 });
 
 hamburgerMenu.addEventListener("click", () => {
   headerMenu.classList.toggle("header-menu_opened");
-  hamburgerMenu.style.display = "none";
-  btnCloseMenu.style.display = "block";
-  headerList.style.display = "flex";
-  headerTheme.style.display = "flex";
 });
 
