@@ -973,8 +973,11 @@
   max-width: 360px;
   grid-row-start: 2;
   margin-bottom: 100px;
+  max-width: 360px;
+  width: 100%;
+  box-sizing: border-box;
 }
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 420px) {
   .footer__input {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -995,6 +998,7 @@
   .footer__copyright {
     font-size: 14px;
     line-height: 20px;
+    align-self: center;
   }
 }
 
@@ -1019,6 +1023,7 @@
   .footer__logo {
     display: block;
     justify-self: end;
+    grid-row-start: 3;
   }
 }
 
@@ -1172,6 +1177,7 @@
   .footer__copyright {
     font-size: 14px;
     line-height: 20px;
+    align-self: center;
   }
 }
 
@@ -1407,4 +1413,24 @@
 
 .header-menu_theme_dark {
   background-color: #333333;
+}
+
+.footer__btn-send-email {
+  cursor: pointer;
+  border: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 28px;
+  font-family: "Inter", "Arial", sans-serif;
+  position: absolute;
+  right: 22px;
+  top: 11px;
+}
+
+.footer__form {
+  grid-column-start: 1;
+  position: relative;
+  grid-column: 1/3;
+  max-width: 360px;
 }/*# sourceMappingURL=style.css.map */
