@@ -973,8 +973,10 @@
   max-width: 360px;
   grid-row-start: 2;
   margin-bottom: 100px;
+  max-width: 360px;
+  width: 100%;
 }
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 420px) {
   .footer__input {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -1019,6 +1021,7 @@
   .footer__logo {
     display: block;
     justify-self: end;
+    grid-row-start: 3;
   }
 }
 
@@ -1407,4 +1410,25 @@
 
 .header-menu_theme_dark {
   background-color: #333333;
+}
+
+.footer__btn-send-email {
+  cursor: pointer;
+  border: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 28px;
+  font-family: "Inter", "Arial", sans-serif;
+  position: absolute;
+  right: 39px;
+  top: 13px;
+}
+
+.footer__form {
+  grid-column-start: 1;
+  position: relative;
+  max-width: 391px;
+  grid-column: 1/3;
+  padding-right: 20px;
 }/*# sourceMappingURL=style.css.map */
