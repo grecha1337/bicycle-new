@@ -19,9 +19,12 @@ const cardsMobile = new Swiper(".bicycle__cards-mobile", {
   slidesPerView: 1,
   spaceBetween: 40,
   pagination: {
-    el: '.swiper-pagination',
-    type: 'bullets',
+    el: ".swiper-pagination",
+    type: "bullets",
   },
+  centeredSlides: true,
+  observer: true,
+  observeParents: true,
 });
 
 const sliderMobile = new Swiper(".slider-mobile", {
