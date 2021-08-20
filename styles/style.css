@@ -169,7 +169,7 @@
   cursor: pointer;
   margin-left: auto;
   margin-right: 32px;
-  background-image: url(../../../../../images/close-btn.png);
+  background-image: url(../images/close-btn.png);
   margin-top: 20px;
   visibility: hidden;
   opacity: 0;
@@ -196,7 +196,7 @@
   background-size: 28px;
   cursor: pointer;
   margin-right: 18px;
-  background-image: url(../../../../../images/hamburger.svg);
+  background-image: url(../images/hamburger.svg);
 }
 @media screen and (max-width: 567px) {
   .header-menu__button-hamburger {
