@@ -976,6 +976,7 @@
   max-width: 360px;
   width: 100%;
   box-sizing: border-box;
+  color: #151515;
 }
 @media screen and (max-width: 420px) {
   .footer__input {
@@ -1426,6 +1427,9 @@
   position: absolute;
   right: 22px;
   top: 11px;
+  background: none;
+  color: #151515;
+  display: none;
 }
 
 .footer__form {
@@ -1433,4 +1437,16 @@
   position: relative;
   grid-column: 1/3;
   max-width: 360px;
+}
+
+.footer__input_theme_dark {
+  color: #ffffff;
+}
+
+.footer__btn-send-email_theme_dark {
+  color: #ffffff;
+}
+
+.footer__btn-send-email_visibility_true {
+  display: block;
 }/*# sourceMappingURL=style.css.map */
