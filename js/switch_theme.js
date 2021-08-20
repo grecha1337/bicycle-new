@@ -3,7 +3,9 @@ const header = document.querySelector(".header");
 const headerLink = document.querySelectorAll(".header-menu__item-link");
 const aboutBicycle = document.querySelector(".about-bicycle");
 const aboutBicycleTitle = document.querySelector(".about-bicycle__title");
-const aboutBicycleParagraph = document.querySelector(".about-bicycle__paragraph");
+const aboutBicycleParagraph = document.querySelector(
+  ".about-bicycle__paragraph"
+);
 const aboutBicycleBrand = document.querySelector(".about-bicycle__brand");
 const eddyMerckx = document.querySelector(".eddy-merckx");
 const eddyMerckxQuote = document.querySelector(".eddy-merckx__quote");
@@ -29,11 +31,12 @@ const footerCopyright = document.querySelector(".footer__copyright");
 const switchRound = document.querySelector(".switch__round");
 const bicycleSelect = document.querySelector(".bicycle__select");
 const headerMenuDark = document.querySelector(".header-menu");
+const footerInput = document.querySelector(".footer__input");
+const footerBtnSendEmail = document.querySelector(".footer__btn-send-email");
 
-switchers.forEach(function(switcher) {
+switchers.forEach(function (switcher) {
   // Вешаем событие клик
   switcher.addEventListener("click", function () {
-    
     switchTheme(headerMenuDark, "header-menu_theme_dark");
     switchTheme(header, "header_theme_dark");
     switchTheme(aboutBicycle, "about-bicycle_theme_dark");
@@ -75,10 +78,10 @@ switchers.forEach(function(switcher) {
     });
 
     switchTheme(bicycleSelect, "bicycle__select_theme_dark");
+    switchTheme(footerInput, "footer__input_theme_dark");
+    switchTheme(footerBtnSendEmail, "footer__btn-send-email_theme_dark");
   });
-})
-
-
+});
 
 function switchTheme(element, themeName) {
   element.classList.toggle(themeName);
