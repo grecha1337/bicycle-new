@@ -5,6 +5,7 @@
   margin-bottom: 100px;
   max-width: 360px;
   width: 100%;
+  box-sizing: border-box;
   @media screen and (max-width: 420px) {
     grid-column-start: 1;
     grid-column-end: 3;
