@@ -25,6 +25,7 @@
   }
   width: 180px;
   @media screen and (max-width: $maxWidthMobile) {
-    min-width: 284px;
+    max-width: 450px;
+    width: 100%;
   }
 }
