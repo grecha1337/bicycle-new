@@ -1,7 +1,7 @@
 const selectBicycle = document.querySelector(".bicycle__select");
 const cardTemplateMobile = document.querySelector("#cardMobile").content;
 const cardContainerMobile = document.querySelector(".cards-mobile__inner");
-selectBicycle.addEventListener("click", () => {
+selectBicycle.addEventListener("change", () => {
   clearContainer(cardContainerMobile);
   switch (selectBicycle.value) {
     case "tt":
