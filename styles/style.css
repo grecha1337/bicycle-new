@@ -125,7 +125,7 @@
     left: 0;
     position: absolute;
     z-index: 9999;
-    background-color: #F4F4F4;
+    background-color: #f4f4f4;
     width: 100vw;
     height: 100vh;
     flex-direction: column;
@@ -1460,10 +1460,4 @@
 
 .footer__btn-send-email_visibility_true {
   display: block;
-}
-
-.bicycle__bullet {
-  width: 4px !important;
-  height: 4px !important;
-  background: #151515 !important;
 }/*# sourceMappingURL=style.css.map */
