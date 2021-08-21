@@ -5,6 +5,7 @@
   font-size: map.get($font-size-d, "paragraph");
   font-weight: map-get($font-weight, "paragraph");
   color: map-get($font-color, "paragraph");
+  line-height: map-get($line-height, "paragraph");
   font-family: $font-family;
   max-width: 460px;
   margin-bottom: 182px;

@@ -21,6 +21,7 @@ const cardsMobile = new Swiper(".bicycle__cards-mobile", {
   pagination: {
     el: ".swiper-pagination",
     type: "bullets",
+    bulletClass: `swiper-pagination-bullet bicycle__bullet`,
   },
   centeredSlides: true,
   observer: true,

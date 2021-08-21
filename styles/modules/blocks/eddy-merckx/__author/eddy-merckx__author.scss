@@ -5,6 +5,7 @@
   color: map-get($font-color, "title");
   font-family: $font-family;
   line-height: 32px;
+  padding-bottom: 10px;
   @media screen and (max-width: $maxWidthMobile) {
     font-size: 10px;
     line-height: 16px;
