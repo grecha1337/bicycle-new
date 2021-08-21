@@ -16,6 +16,7 @@ const roadTitle = document.querySelector(".road__title");
 const roadTitleMobile = document.querySelector(".road__title-mobile");
 const roadParagraph = document.querySelector(".road__paragraph");
 const sliderButton = document.querySelectorAll(".slider__button");
+const sliderMobileButton = document.querySelectorAll(".slider-mobile__button");
 const bicycle = document.querySelector(".bicycle");
 const bicycleTitle = document.querySelector(".bicycle__title");
 const bicycleTypeItem = document.querySelectorAll(".bicycle__type-item");
@@ -53,6 +54,9 @@ switchers.forEach(function (switcher) {
     switchTheme(roadParagraph, "road__paragraph_theme_dark");
     sliderButton.forEach(function (elemet) {
       switchTheme(elemet, "slider__button_theme_dark");
+    });
+    sliderMobileButton.forEach(function (elemet) {
+      switchTheme(elemet, "slider-mobile__button_theme_dark");
     });
     switchTheme(bicycle, "bicycle_theme_dark");
     switchTheme(bicycleTitle, "bicycle__title_theme_dark");
