@@ -2,7 +2,7 @@ const cardContainer = document.querySelector(".cards");
 const btnHighway = document.querySelector(".bicycle__type-item-highway");
 const btnGravel = document.querySelector(".bicycle__type-item-gravel");
 const btnTT = document.querySelector(".bicycle__type-item-tt");
-const initialCards = [
+const cardList = [
   {
     linkImg: "./images/Cervelo-Caledonia-5.png",
     name: "Cervelo Caledonia-5",
@@ -70,24 +70,23 @@ function createCard(cardData) {
   cardElement.querySelector(".cards__item-link").href = cardData.link;
   cardElement.querySelector(".cards__item-img").src = cardData.linkImg;
   cardElement.querySelector(".cards__item-img").alt = cardData.type;
-
   return cardElement;
 }
 
-function initilTypeCards(type, cardList) {
+function initilTypeCards(type, cardList, cardsContainer, createCardCallback) {
   cardList.forEach(function (el) {
     if (el.type === type) {
-      addCard(el, cardContainer, createCard);
+      addCard(el, cardsContainer, createCardCallback);
     }
   });
 }
 
-function addCard(cardElement, cardContainer, callback) {
-  const card = callback(cardElement);
+function addCard(cardElement, cardContainer, createCardCallback) {
+  const card = createCardCallback(cardElement);
   cardContainer.append(card);
 }
 
-initilTypeCards("highway", initialCards);
+initilTypeCards("highway", cardList, cardContainer, createCard);
 
 function clearContainer(element) {
   while (element.firstChild) {
@@ -98,19 +97,19 @@ function clearContainer(element) {
 btnHighway.addEventListener("click", function (e) {
   clearContainer(cardContainer);
   setActiveElement(e, "bicycle__type-item", "bicycle__type-item-active");
-  initilTypeCards("highway", initialCards);
+  initilTypeCards("highway", cardList, cardContainer, createCard);
 });
 
 btnGravel.addEventListener("click", function (e) {
   clearContainer(cardContainer);
   setActiveElement(e, "bicycle__type-item", "bicycle__type-item-active");
-  initilTypeCards("gravel", initialCards);
+  initilTypeCards("gravel", cardList, cardContainer, createCard);
 });
 
 btnTT.addEventListener("click", function (e) {
   clearContainer(cardContainer);
   setActiveElement(e, "bicycle__type-item", "bicycle__type-item-active");
-  initilTypeCards("tt", initialCards);
+  initilTypeCards("tt", cardList, cardContainer, createCard);
 });
 
 function setActiveElement(e, elemntGroup, nameActivClass) {

@@ -5,15 +5,25 @@ selectBicycle.addEventListener("click", () => {
   clearContainer(cardContainerMobile);
   switch (selectBicycle.value) {
     case "tt":
-      initilTypeCards("tt", initialCards);
+      initilTypeCards("tt", cardList, cardContainerMobile, createCardMobile);
       console.log("tt");
       break;
     case "gravel":
-      initilTypeCards("gravel", initialCards);
+      initilTypeCards(
+        "gravel",
+        cardList,
+        cardContainerMobile,
+        createCardMobile
+      );
       console.log("gravel");
       break;
     case "highway":
-      initilTypeCards("highway", initialCards);
+      initilTypeCards(
+        "highway",
+        cardList,
+        cardContainerMobile,
+        createCardMobile
+      );
       break;
   }
 });
@@ -30,12 +40,4 @@ function createCardMobile(cardData) {
   return cardElement;
 }
 
-function initilTypeCards(type, cardList) {
-  cardList.forEach(function (el) {
-    if (el.type === type) {
-      addCard(el, cardContainerMobile, createCardMobile);
-    }
-  });
-}
-
-initilTypeCards("highway", initialCards);
+initilTypeCards("highway", cardList, cardContainerMobile, createCardMobile);
