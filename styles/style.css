@@ -169,7 +169,6 @@
   cursor: pointer;
   margin-left: auto;
   margin-right: 32px;
-  background-image: url(../images/close-btn.png);
   margin-top: 20px;
   visibility: hidden;
   opacity: 0;
@@ -182,7 +181,7 @@
   }
 }
 
-.header-menu__button-hamburger {
+.header__button-hamburger {
   display: none;
   z-index: 9999;
   background-color: transparent;
@@ -196,10 +195,11 @@
   background-size: 28px;
   cursor: pointer;
   margin-right: 18px;
-  background-image: url(../images/hamburger.svg);
+  width: 22px;
+  height: 22px;
 }
 @media screen and (max-width: 567px) {
-  .header-menu__button-hamburger {
+  .header__button-hamburger {
     padding: 0;
     display: block;
   }
@@ -1202,6 +1202,14 @@
   background: #545454;
 }
 
+.header__button-hamburger_theme_dark {
+  fill: #fff;
+}
+
+.header-menu__button-close_theme_dark {
+  stroke: #fff;
+}
+
 .bicycle__cards {
   margin-top: 117px;
 }
@@ -1460,4 +1468,10 @@
 
 .footer__btn-send-email_visibility_true {
   display: block;
+}
+
+.bicycle__bullet {
+  width: 4px !important;
+  height: 4px !important;
+  background: #151515 !important;
 }/*# sourceMappingURL=style.css.map */

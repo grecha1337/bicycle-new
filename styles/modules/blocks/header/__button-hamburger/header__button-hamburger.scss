@@ -1,4 +1,4 @@
-.header-menu__button-hamburger {
+.header__button-hamburger {
   display: none;
   z-index: 9999;
   background-color: transparent;
@@ -12,7 +12,8 @@
   background-size: 28px;
   cursor: pointer;
   margin-right: 18px;
-  background-image: url(../images/hamburger.svg);
+  width: 22px;
+  height: 22px;
   @media screen and (max-width: $menuMobileMaxWidth) {
     padding: 0;
     display: block;

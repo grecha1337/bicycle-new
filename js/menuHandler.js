@@ -1,5 +1,5 @@
 const btnCloseMenu = document.querySelector(".header-menu__button-close");
-const hamburgerMenu = document.querySelector(".header-menu__button-hamburger");
+const hamburgerMenu = document.querySelector(".header__button-hamburger");
 const headerMenu = document.querySelector(".header-menu");
 const headerList = document.querySelector(".header-menu__list");
 const headerTheme = document.querySelector(".header__theme");

@@ -17,7 +17,7 @@
 @import "./modules/blocks/header-menu/_opened/header-menu_opened.scss";
 @import "./modules/blocks/header-menu/__theme/header__theme.scss";
 @import "./modules/blocks/header-menu/__button-close/header-menu__button-close.scss";
-@import "./modules/blocks/header-menu/__button-hamburger/header-menu__button-hamburger.scss";
+@import "./modules/blocks/header/__button-hamburger/header__button-hamburger.scss";
 
 @import "./modules/blocks/about-bicycle/about-bicycle.scss";
 @import "./modules/blocks/about-bicycle/__container/about-bicycle__container.scss";
@@ -124,6 +124,8 @@
 @import "./modules/blocks/input/_theme/input_theme_dark.scss";
 @import "./modules/blocks/footer/__copyright/footer__copyright.scss";
 @import "./modules/blocks/switch/__round/_theme/switch__round_theme_dark.scss";
+@import "./modules/blocks/header/__button-hamburger/_theme/header__button-hamburger_theme_dark.scss";
+@import "./modules/blocks/header-menu/__button-close/_theme/header-menu__button-close_theme_dark.scss";
 @import "./modules/blocks/bicycle/__cards/bicycle__cards.scss";
 
 @import "./modules/blocks/cards-mobile/__container/cards-mobile__container.scss";
@@ -161,3 +163,4 @@
 @import "./modules/blocks/footer/__input/_theme/footer__input_theme_dark.scss";
 @import "./modules/blocks/footer/__btn-send-email/_theme/footer__btn-send-email_theme_dark.scss";
 @import "./modules/blocks/footer/__btn-send-email/_visibility_true/footer__btn-send-email_visibility_true.scss";
+@import "./modules/blocks/bicycle/__bullet/bicycle__bullet.scss";

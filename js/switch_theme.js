@@ -34,6 +34,8 @@ const bicycleSelect = document.querySelector(".bicycle__select");
 const headerMenuDark = document.querySelector(".header-menu");
 const footerInput = document.querySelector(".footer__input");
 const footerBtnSendEmail = document.querySelector(".footer__btn-send-email");
+const buttonHamburger = document.querySelector(".header__button-hamburger");
+const closeMenu = document.querySelector(".header-menu__button-close");
 
 switchers.forEach(function (switcher) {
   // Вешаем событие клик
@@ -84,7 +86,12 @@ switchers.forEach(function (switcher) {
     switchTheme(bicycleSelect, "bicycle__select_theme_dark");
     switchTheme(footerInput, "footer__input_theme_dark");
     switchTheme(footerBtnSendEmail, "footer__btn-send-email_theme_dark");
-  });
+    switchTheme(buttonHamburger, "header__button-hamburger_theme_dark");
+
+    [...closeMenu.children].forEach(function (elemet) {
+      switchTheme(elemet, "header-menu__button-close_theme_dark");
+    });
+  }); 
 });
 
 function switchTheme(element, themeName) {
