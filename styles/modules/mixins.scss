@@ -5,13 +5,6 @@
   display: flex;
 }
 
-@mixin reset-title {
-  margin: 0;
-}
-
-@mixin reset-paragraph {
-  margin: 0;
-}
 
 @mixin z-index-top {
   position: relative;

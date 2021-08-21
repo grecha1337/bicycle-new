@@ -1,5 +1,5 @@
 .eddy-merckx__quote {
-  @include reset-title;
+  margin: 0;
   font-size: 34px;
   font-weight: 600;
   color: map-get($font-color, "title");

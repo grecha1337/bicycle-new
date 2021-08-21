@@ -1,5 +1,5 @@
 .footer__copyright {
-  @include reset-paragraph;
+  margin: 0;
   font-family: $font-family;
   grid-row-start: 3;
   font-style: normal;

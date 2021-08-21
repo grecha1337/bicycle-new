@@ -5,7 +5,7 @@
   font-weight: map-get($font-weight, "title");
   color: map-get($font-color, "title");
   font-family: $font-family;
-  @include reset-title;
+  margin: 0;
   margin-bottom: 50px;
   @media screen and (max-width: $maxWidthMobile) {
     display: none;

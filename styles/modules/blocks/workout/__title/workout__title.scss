@@ -1,7 +1,7 @@
 @use "sass:map";
 
 .workout__title {
-  @include reset-title;
+  margin: 0;
   font-family: $font-family;
   font-size: map.get($font-size-d, "title");
   font-weight: map-get($font-weight, "title");

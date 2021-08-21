@@ -1,6 +1,6 @@
 .about-bicycle__brand {
   font-family: $font-family;
-  @include reset-paragraph;
+  margin: 0;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;

@@ -1,5 +1,5 @@
 .eddy-merckx__author {
-  @include reset-paragraph;
+  margin: 0;
   font-size: 20px;
   font-weight: 500;
   color: map-get($font-color, "title");

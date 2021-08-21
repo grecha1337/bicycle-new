@@ -1,7 +1,7 @@
 @use "sass:map";
 
 .about-bicycle__paragraph {
-  @include reset-paragraph;
+  margin: 0;
   @include z-index-top;
   font-family: $font-family;
   font-size: map.get($font-size-d, "paragraph");

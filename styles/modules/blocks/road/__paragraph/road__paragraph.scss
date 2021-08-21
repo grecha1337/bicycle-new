@@ -1,7 +1,7 @@
 @use "sass:map";
 
 .road__paragraph {
-  @include reset-paragraph;
+  margin: 0;
   font-size: map.get($font-size-d, "paragraph");
   font-weight: map-get($font-weight, "paragraph");
   color: map-get($font-color, "paragraph");
