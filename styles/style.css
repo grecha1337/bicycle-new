@@ -1475,4 +1475,17 @@
   width: 4px !important;
   height: 4px !important;
   background: #151515 !important;
+}
+
+.road__img-type {
+  position: absolute;
+  z-index: 9999;
+  bottom: 17px;
+  left: 0px;
+}
+@media screen and (max-width: 440px) {
+  .road__img-type {
+    max-width: 70px;
+    max-height: 28px;
+  }
 }/*# sourceMappingURL=style.css.map */
