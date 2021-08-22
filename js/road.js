@@ -17,35 +17,12 @@ const roadList = [
 ];
 
 swiper.on("slideChange", function () {
-  console.log(this.activeIndex);
-  if (this.activeIndex === 3) {
-    roadParagraph.textContent = roadList[1].roadText;
-    roadTitle.textContent = roadList[1].nameRoad;
-  }
-  if (this.activeIndex === 4 || this.activeIndex === 1) {
-    roadParagraph.textContent = roadList[2].roadText;
-    roadTitle.textContent = roadList[2].nameRoad;
-  }
-  if (this.activeIndex === 5 || this.activeIndex === 2) {
-    roadParagraph.textContent = roadList[0].roadText;
-    roadTitle.textContent = roadList[0].nameRoad;
-  }
+  roadParagraph.textContent = roadList[this.realIndex].roadText;
+  roadTitle.textContent = roadList[this.realIndex].nameRoad;
 });
 
 sliderMobile.on("slideChange", function () {
   console.log(this.activeIndex);
-
-  if (this.activeIndex === 2 ) {
-    roadParagraph.textContent = roadList[1].roadText;
-    roadTitleMobile.textContent = roadList[1].nameRoad;
-  }
-
-  if (this.activeIndex === 3|| this.activeIndex === 0) {
-    roadParagraph.textContent = roadList[2].roadText;
-    roadTitleMobile.textContent = roadList[2].nameRoad;
-  }
-  if (this.activeIndex === 4 || this.activeIndex === 1) {
-    roadParagraph.textContent = roadList[0].roadText;
-    roadTitleMobile.textContent = roadList[0].nameRoad;
-  }
+  roadParagraph.textContent = roadList[this.realIndex].roadText;
+  roadTitleMobile.textContent = roadList[this.realIndex].nameRoad;
 });
