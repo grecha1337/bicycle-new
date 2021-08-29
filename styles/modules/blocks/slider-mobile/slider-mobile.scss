@@ -3,6 +3,7 @@
   gap: 40px;
   align-items: center;
   display: none;
+  overflow: hidden;
   @media screen and (max-width: $maxWidthMobile) {
     display: grid;
   }
