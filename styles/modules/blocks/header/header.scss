@@ -1,0 +1,11 @@
+.header {
+  min-height: 74px;
+  background-color: $mainColorBackground;
+  position: sticky;
+  z-index: 3;
+  top: 0;
+  @media screen and (max-width: $maxWidthMobile) {
+    position: relative;
+    min-height: 100%;
+  }
+}

@@ -1,0 +1,21 @@
+@use "sass:map";
+
+.about-bicycle__paragraph {
+  margin: 0;
+  @include z-index-top;
+  font-family: $font-family;
+  font-size: map.get($font-size-d, "paragraph");
+  font-weight: map-get($font-weight, "paragraph");
+  color: map-get($font-color, "paragraph");
+  line-height: map-get($line-height, "paragraph");
+  max-width: 460px;
+  opacity: 0.7;
+  grid-row: 2/3;
+  grid-column-start: 1;
+  @media screen and (max-width: $maxWidthMobile) {
+    grid-row: 3;
+    font-size: 12px;
+    line-height: 18px;
+    padding-bottom: 40px;
+  }
+}

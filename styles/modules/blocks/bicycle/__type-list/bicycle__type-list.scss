@@ -1,0 +1,18 @@
+.bicycle__type-list {
+  @include reset-list-inline;
+  align-self: flex-end;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #151515;
+  font-family: $font-family;
+  @media screen and (max-width: $maxWidthMobile) {
+   display: none;
+  }
+
+  @media screen and (max-width: 1100px) {
+    margin-top: 10px;
+    align-self: flex-start;
+   }
+}

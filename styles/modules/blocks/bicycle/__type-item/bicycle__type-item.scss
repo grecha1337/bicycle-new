@@ -1,0 +1,11 @@
+.bicycle__type-item {
+  padding-right: 40px;
+
+  &:last-child{
+    padding: 0;
+  }
+  &:hover{
+    opacity: 0.7;
+    cursor: pointer;
+  }
+}

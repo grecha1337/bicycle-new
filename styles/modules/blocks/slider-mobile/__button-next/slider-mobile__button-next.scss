@@ -1,0 +1,8 @@
+.slider-mobile__button-next {
+  transform: rotate(45deg);
+  &::before {
+    position: relative;
+    top: 0px;
+    right: 2px;
+  }
+}

@@ -1,0 +1,14 @@
+.cards-mobile__container {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+  background: #f4f4f4;
+  padding: 15px;
+  min-height: 306px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 283px;
+  margin: 0 auto;
+  flex-direction: column;
+  box-sizing: border-box;
+  border-radius: 20px;
+}

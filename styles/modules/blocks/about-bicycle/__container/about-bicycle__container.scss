@@ -1,0 +1,18 @@
+.about-bicycle__container {
+  max-width: 1440px;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-left: 120px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 226px 165px 218px;
+  gap: 0 40px;
+  @media screen and (max-width: $maxWidthMobile) {
+    padding: $paddingContainerMobile;
+    padding-top: 40px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, min-content);
+  }
+}

@@ -1,0 +1,19 @@
+@use "sass:map";
+
+.about-bicycle__title {
+  font-size: map.get($font-size-d, "title");
+  font-weight: map-get($font-weight, "title");
+  color: map-get($font-color, "title");
+  font-family: $font-family;
+  margin: 0;
+  max-width: 460px;
+  grid-row: 1/2;
+  grid-column-start: 1;
+  margin-top: 60px;
+  @media screen and (max-width: $maxWidthMobile) {
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+}

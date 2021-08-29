@@ -1,0 +1,15 @@
+.header__theme {
+  visibility: hidden;
+  opacity: 0;
+  @media screen and (max-width: $menuMobileMaxWidth) {
+    justify-content: end;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    gap: 0 20px;
+    z-index: 9999;
+    margin-bottom: 38px;
+    visibility: visible;
+    opacity: 1;
+  }
+}

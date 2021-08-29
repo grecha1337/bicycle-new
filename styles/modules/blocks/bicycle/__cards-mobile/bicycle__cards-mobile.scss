@@ -1,0 +1,8 @@
+.bicycle__cards-mobile {
+  overflow: visible !important;
+  padding: 7px !important;
+  display: none;
+  @media screen and (max-width: $maxWidthMobile) {
+    display: block;
+  }
+}

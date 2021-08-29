@@ -1,0 +1,9 @@
+.header-menu__item {
+  padding-right: 34px;
+
+  &:last-child {
+  }
+  @media screen and (max-width: $menuMobileMaxWidth) {
+    padding-right: 0;
+  }
+}

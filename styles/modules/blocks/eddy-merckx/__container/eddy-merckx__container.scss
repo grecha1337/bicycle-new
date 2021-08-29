@@ -1,0 +1,16 @@
+.eddy-merckx__container {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 20px 80px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 120px 120px 60px;
+  box-sizing: border-box;
+
+  @media screen and (max-width: $maxWidthMobile) {
+    padding: $paddingContainerMobile;
+    grid-template-columns: 1fr;
+    min-height: 513px;
+    gap: 40px;
+  }
+}

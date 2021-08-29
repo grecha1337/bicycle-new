@@ -1,0 +1,7 @@
+.slider-mobile__button_theme_dark {
+  background: #434343;
+  &::before {
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+  }
+}

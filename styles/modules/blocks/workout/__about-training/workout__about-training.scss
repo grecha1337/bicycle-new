@@ -1,0 +1,19 @@
+@use "sass:map";
+
+.workout__about-training {
+  margin: 0;
+  font-size: map.get($font-size-d, "paragraph");
+  font-weight: map-get($font-weight, "paragraph");
+  color: map-get($font-color, "paragraph");
+  line-height: map-get($line-height, "paragraph");
+  font-family: $font-family;
+  max-width: 460px;
+  margin-bottom: 182px;
+  opacity: 0.7;
+  grid-column: 1;
+  @media screen and (max-width: $maxWidthMobile) {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 40px;
+  }
+}

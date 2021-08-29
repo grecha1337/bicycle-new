@@ -1,0 +1,11 @@
+.about-bicycle__continer-brand {
+  display: flex;
+  align-items: center;
+  grid-row: 5;
+  grid-column-start: 1;
+  max-height: 18px;
+  @media screen and (max-width: $maxWidthMobile) {
+    display: none;
+    grid-row: 4;
+  }
+}

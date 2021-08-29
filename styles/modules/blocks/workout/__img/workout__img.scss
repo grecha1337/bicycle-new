@@ -1,0 +1,13 @@
+.workout__img {
+  max-height: 460px;
+  max-width: 100%;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  @media screen and (max-width: $maxWidthMobile) {
+    margin-bottom: 40px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+  }
+}

@@ -1,0 +1,42 @@
+$mainColorBackground: #f4f4f4;
+$mainDarkColorBackground: #333333;
+$footerColorBackground: #EFEFEF;
+$footerDarkColorBackground: #2F2F2F;
+$colorTitleDark: #fff;
+$colorParagrapheDark: #E6E6E6;
+$maxWidthConteiner: 1440px;
+$menuMobileMaxWidth: 567px;
+$font-family: "Inter", "Arial", sans-serif;
+$paddingContainerMobile : 0 18px;
+$maxWidthMobile: 880px;
+
+$font-color: (
+  "menu": #151515,
+  "title": #151515,
+  "paragraph": #222222,
+  "button": #ffffff,
+);
+$font-style: (
+  "menu": normal,
+  "title": normal,
+  "paragraph": normal,
+  "button": normal,
+);
+$font-weight: (
+  "menu": 500,
+  "title": bold,
+  "paragraph": normal,
+  "button": 600,
+);
+$font-size-d: (
+  "menu": 14px,
+  "title": 55px,
+  "paragraph": 18px,
+  "button": 14px,
+);
+
+$line-height: (
+  "menu": 18px,
+  "title": 60px,
+  "paragraph": 28px,
+);

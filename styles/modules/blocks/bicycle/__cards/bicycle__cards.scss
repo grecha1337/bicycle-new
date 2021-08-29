@@ -1,0 +1,7 @@
+.bicycle__cards {
+  margin-top: 117px;
+  @media screen and (max-width: $maxWidthMobile) {
+    margin-top: 0px;
+    display: none;
+  }
+}

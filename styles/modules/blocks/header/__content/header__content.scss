@@ -1,0 +1,14 @@
+.header__content {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 120px;
+  box-sizing: border-box;
+  min-height: 74px;
+  align-items: center;
+  @media screen and (max-width: $menuMobileMaxWidth) {
+    padding-right: 18px;
+    align-items: center;
+  }
+}

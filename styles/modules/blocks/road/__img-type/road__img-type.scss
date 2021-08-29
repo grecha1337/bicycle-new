@@ -1,0 +1,10 @@
+.road__img-type {
+  position: absolute;
+  z-index: 9999;
+  bottom: 17px;
+  left: 0px;
+  @media screen and (max-width: 440px) {
+    max-width: 70px;
+    max-height: 28px;
+  }
+}

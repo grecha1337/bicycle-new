@@ -1,0 +1,11 @@
+.footer__theme {
+  grid-row-start: 3;
+  display: flex;
+  justify-content: end;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0 20px;
+  @media screen and (max-width: $maxWidthMobile) {
+    display: none;
+  }
+}
